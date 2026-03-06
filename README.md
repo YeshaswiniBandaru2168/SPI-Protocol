@@ -4,8 +4,11 @@ The Serial Peripheral Interface (SPI) is a high-speed, synchronous communication
 The protocol relies on four primary signals:
 
 SCLK (Serial Clock): Provides the timing synchronization.
+
 MOSI (Master Out Slave In): The data path from the controller to the peripheral.
+
 MISO (Master In Slave Out): The data path from the peripheral back to the controller.
+
 CS (Chip Select): An active-low signal used to initiate communication and address specific slave devices.
 
 #Technical Design & Methodology
