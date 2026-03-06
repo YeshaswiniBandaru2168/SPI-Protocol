@@ -12,6 +12,7 @@ MISO (Master In Slave Out): The data path from the peripheral back to the contro
 CS (Chip Select): An active-low signal used to initiate communication and address specific slave devices.
 
 **Technical Design & Methodology**
+
 This implementation features a robust, synthesizable SPI Master core written in Verilog. Unlike simplified models, this design prioritizes timing accuracy and hardware reliability through a state-machine-driven architecture.
 
 **1. Finite State Machine (FSM) Control**
